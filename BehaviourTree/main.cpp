@@ -112,7 +112,7 @@ int main()
 	//root.AddChild(tree.Allocate<BehaviourLog>(":("));
 	//root.AddChild(tree.Allocate<BehaviourConstSeq>(new EStatus[2]{ EStatus::ERunning, EStatus::ESuccess }, 2));
 	//root.AddChild(tree.Allocate<BehaviourLog>(":<"));
-	//root.AddChild(tree.Allocate<BehaviourLog>("Natalia to suka"));
+	//root.AddChild(tree.Allocate<BehaviourLog>(":O"));
 
 	tree.SetRoot(root);
 	while (true)
