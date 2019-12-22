@@ -34,16 +34,3 @@ void InverseKinematicsStep_GradientDescent(Vector2 target, float learingRate)
 		angles[i] -= learingRate * gradient;
 	}
 }
-
-//void InverseKinematics_GradientDescent(Vector2 target, float learingRate, float requiredDistanceFromTarget)
-
-class GradientDescentSolver
-{
-public:
-
-	
-
-
-private:
-
-};
